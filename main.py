@@ -36,9 +36,9 @@ def main():
         populate_db(album_objects)
     
     subreddit = reddit.subreddit("Buckethead")
-    # if not subreddit.user_is_moderator:
-    #     print(f"You must be a mod in this sub: r/{subreddit_name}.")
-    #     exit()
+    if not subreddit.user_is_moderator:
+       print(f"You must be a mod in r/Buckethead to run this script.")
+       exit()
 
     # Post the albums that have been recently added to the page.
     for album in album_objects:
