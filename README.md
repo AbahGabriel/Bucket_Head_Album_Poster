@@ -26,9 +26,9 @@ Script that checks for new Buckethead albums and makes a post to the r/Buckethea
   POPULATE_DB = Y or N
   ```
 
-  ## Running the script
-  Replace 'C:\path\to\the\main.py' with the actual path to the main.py script.  
-  You can run it as an hourly task (Windows):  
-    ```
-    schtasks /create /tn BucketHeadAlbumPoster /tr "python C:\path\to\the\main.py" /sc hourly
-    ```
+## Running the script
+Replace 'C:\path\to\the\main.py' with the actual path to the main.py script.  
+You can run it as an hourly task (Windows):  
+  ```
+  schtasks /create /tn BucketHeadAlbumPoster /tr "python C:\path\to\the\main.py" /sc hourly
+  ```
