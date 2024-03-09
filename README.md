@@ -1,5 +1,5 @@
 # BucketHead Album Poster  
-Script that checks for new Buckethead albums and makes a post to the r/Buckethead subreddit when new albums are found.
+Script that checks for new Buckethead albums and makes a post to [r/Buckethead](https://www.reddit.com/r/Buckethead/) when new albums are found.
 
 ## Installation
 - Install Python. You can download it here https://www.python.org/downloads/ (Add to PATH during the installation).  
